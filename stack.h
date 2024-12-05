@@ -18,5 +18,5 @@ Item pop(Stack *s);
 Item peek(Stack *s);
 static void stack_underflow(void);
 static void reallocate(Stack * stack);
-void introduce_myself(){printf("My name is Yongsang");}
+void introduce(){printf("My name is Yongsang");}
 #endif

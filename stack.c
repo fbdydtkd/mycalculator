@@ -9,7 +9,7 @@ Stack * create_stack(int initial_size)
 	s->contents = (int *)malloc(initial_size*sizeof(Item));
 
 	s->size=initial_size;
-	printf("Stack created with initial size: %d\n", initial_size);
+	printf("stack created with initial size: %d\n", initial_size);
 	return s;
 }
 
